@@ -249,6 +249,7 @@ ServiceFabricBackup/
 *.mdf
 *.ldf
 *.ndf
+!ContourData.mdf
 
 # Business Intelligence projects
 *.rdl.data
