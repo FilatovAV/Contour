@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contour.Application", "Contour.Application\Contour.Application.csproj", "{490E87AF-F5F4-46E6-A318-22031404C467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contour.AutoCAD.Plugin", "Contour.AutoCAD.Plugin\Contour.AutoCAD.Plugin.csproj", "{E9F6D685-BD5B-4DB3-8C2E-ED5FF77516FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contour.DAL", "Contour.DAL\Contour.DAL.csproj", "{EF4DC523-8D8B-4334-BF98-04B0E07A5216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contour.Domain", "Contour.Domain\Contour.Domain.csproj", "{3A36AC5E-E041-4549-B927-3E3472786034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{490E87AF-F5F4-46E6-A318-22031404C467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490E87AF-F5F4-46E6-A318-22031404C467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490E87AF-F5F4-46E6-A318-22031404C467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490E87AF-F5F4-46E6-A318-22031404C467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F6D685-BD5B-4DB3-8C2E-ED5FF77516FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F6D685-BD5B-4DB3-8C2E-ED5FF77516FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F6D685-BD5B-4DB3-8C2E-ED5FF77516FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F6D685-BD5B-4DB3-8C2E-ED5FF77516FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4DC523-8D8B-4334-BF98-04B0E07A5216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4DC523-8D8B-4334-BF98-04B0E07A5216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4DC523-8D8B-4334-BF98-04B0E07A5216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4DC523-8D8B-4334-BF98-04B0E07A5216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A36AC5E-E041-4549-B927-3E3472786034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A36AC5E-E041-4549-B927-3E3472786034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A36AC5E-E041-4549-B927-3E3472786034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A36AC5E-E041-4549-B927-3E3472786034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E67FB5FF-4B96-47DD-916E-6E4995A7D945}
+	EndGlobalSection
+EndGlobal
