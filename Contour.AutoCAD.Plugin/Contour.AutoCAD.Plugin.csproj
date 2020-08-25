@@ -40,6 +40,9 @@
     <Reference Include="AcMgd">
       <HintPath>C:\MyWork\ObjectARX 2017\inc\AcMgd.dll</HintPath>
     </Reference>
+    <Reference Include="GeobridgeClassLibrary">
+      <HintPath>..\GeobridgeLibrary\GeobridgeClassLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -58,6 +61,7 @@
     <Compile Include="Controls\MainPalette.Designer.cs">
       <DependentUpon>MainPalette.cs</DependentUpon>
     </Compile>
+    <Compile Include="Initializer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -72,6 +76,28 @@
     <EmbeddedResource Include="Controls\MainPalette.resx">
       <DependentUpon>MainPalette.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GbContourMenu.cuix">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="GbContourMenu.mnl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="GbContourMenu.mnr">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="GbContourMenu_light.mnr">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GbContourMenu.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GbContourMenu_light.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

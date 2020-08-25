@@ -1,0 +1,12 @@
+;;;
+;;;     Программное обеспечение Контуры
+;;;     Создано при поддержке https://geobridge.ru/
+;;;
+;;;  --------------------------------------------------------------------------
+;;;
+;;;     This file is loaded automatically following the menu GbContourMenu.
+;;;
+(setq echo (getvar "cmdecho"))
+(setvar "cmdecho" 0)
+(command "_netload" "Contour.AutoCAD.Plugin.dll")
+(setvar "cmdecho" echo)

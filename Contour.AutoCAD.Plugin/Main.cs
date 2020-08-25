@@ -17,11 +17,12 @@ namespace Contour.AutoCAD.Plugin
         {
             MainPaletteSet = new PaletteSet("Contour.AutoCAD.Plugin", Guid.Parse("{9D231C75-8EE5-488E-9EF5-9A3F35EC9ED9}"));
             MainPaletteSet.Add("ContourMainPaletteSet", MainPalette);
+
+            var initializer = new Initializer();
+            initializer.Initialize();
         }
 
         public void Terminate()
-        {
-            throw new NotImplementedException();
-        }
+        { }
     }
 }
