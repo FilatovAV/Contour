@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\BaseCommands.cs" />
     <Compile Include="Controls\MainPalette.cs">
       <SubType>UserControl</SubType>
     </Compile>
