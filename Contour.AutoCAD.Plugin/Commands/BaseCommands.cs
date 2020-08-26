@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using GeobridgeClassLibrary;
 
 namespace Contour.AutoCAD.Plugin.Commands
@@ -19,7 +14,7 @@ namespace Contour.AutoCAD.Plugin.Commands
             }
             catch (System.Exception ex)
             {
-                MessageBox.Show($"Исключение в GetContour\n{ex.Message}", CommonMessages.GeobridgeContours, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Исключение в ContourPalette\n{ex.Message}", CommonMessages.GeobridgeContours, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
